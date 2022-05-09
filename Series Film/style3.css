@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: wheat;
+}
+.head{
+    text-align: right;
+    background-color: orange;
+    padding: 5px;
+}
+.head input{
+    padding: 5px;
+}
+.head a{
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+}
+
+.Intro{
+    text-align: center;
+}
+.Intro h1{
+    padding: 10px;
+}
+.Intro select{
+    cursor: pointer;
+}
+.Char{
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: auto;
+    height: auto;
+}
+body h1{
+    text-align: center;
+    
+}
+.Char div{
+    padding-right: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover,
+a:focus{
+    text-decoration-color: blue;
+    text-decoration-line: underline;
+}
+
+img{
+    cursor: zoom-in; box-shadow: 1px 1px  black;
+}
+#Cmt{
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+#Cmt input{
+    padding: 5px;
+}
+#Cmt input[type="submit"]:focus,
+#Cmt input[type="submit"]:hover
+{
+cursor: pointer;
+color: blue;
+}
+#Cmt input p{
+    padding: 5px;
+}
+
+.logo{
+    padding-right: 650px;
+}
+#footer{
+    background-color: orange;
+}
+#footer fieldset{
+    text-align: center;
+    background-color: orange;
+}
+#footer fieldset legend{
+    font-style: italic  ;
+}
+iframe{
+    box-shadow: 1px 1px  grey;
+}
+
+.frame{
+    display: flex;
+    justify-content: center;
+}
+#film{
+    padding: 10px;
+    font-size: 20px;
+}
+

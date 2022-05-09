@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginStyle.css">
+    <link rel="shortcut icon" href="https://simpleicon.com/wp-content/uploads/user1.png">
+    <script src="login.js"></script>
+    <title>Login</title>
+</head>
+<body>
+   <header>
+      <div>
+        Login
+      </div>
+   </header>
+   <main>
+       <div id="id01">
+        <form class="modal-content animate" action=""method="post">
+            <div class="imgcontainer">
+             <img src="https://icons-for-free.com/iconfiles/png/512/business+costume+male+man+office+user+icon-1320196264882354682.png" alt="avatar" name="avatar" width="200px" height="200px">
+             <span onclick="back()" class="close">X</span>
+            </div>
+            <div class="container">
+                 <label for="uname"><b>Userame:</b></label>
+                 <input type="text" placeholder="Enter Username" name="uname" required>
+                 <label for="pword"><b>Password:</b></label>
+                 <input type="password" placeholder="Enter password" name="pword" required>
+                 <button type="submit">Login</button>
+                 <button type="submit" style="background-color: red;">Register</button>
+                 <label> 
+                     <input type="checkbox" checked="checked" name="remember"> Remember me
+                 </label>
+            </div>
+            <div class="bot">
+             <button type="button" onclick="back()" name="cancel" class="cancelbtn">Cancel</button>
+             <span>Forgot <a href="#">password ?</a></span>                   
+         </div>
+         </form>
+    </main>
+    <footer>
+        <div>
+         Contact Me
+        </div>
+    </footer>
+       </div>
+        
+</body>
+</html>
