@@ -4,30 +4,30 @@
     box-sizing: border-box;
     background-color: wheat;
 }
-.head{
+.HeadPage{
     text-align: right;
     background-color: orange;
     padding: 5px;
 }
-.head input{
+.HeadPage input{
     padding: 5px;
 }
-.head a{
+.HeadPage a{
     text-decoration: none;
     color: black;
     background-color: orange;
 }
 
-.Intro{
+.IntroFilm{
     text-align: center;
 }
-.Intro h1{
+.IntroFilm h1{
     padding: 10px;
 }
-.Intro select{
+.IntroFilm select{
     cursor: pointer;
 }
-.Char{
+.IntroChar{
     padding-left: 50px;
     display: flex;
     align-items: center;
@@ -40,7 +40,7 @@ body h1{
     text-align: center;
     
 }
-.Char div{
+.IntroChar div{
     padding-right: 50px;
 }
 
@@ -56,36 +56,36 @@ a:focus{
 img{
     cursor: zoom-in; box-shadow: 1px 1px  black;
 }
-#Cmt{
+#Comment{
     padding-left: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center ;
 }
-#Cmt input{
+#Comment input{
     padding: 5px;
 }
-#Cmt input[type="submit"]:focus,
-#Cmt input[type="submit"]:hover
+#Comment input[type="submit"]:focus,
+#Comment input[type="submit"]:hover
 {
 cursor: pointer;
 color: blue;
 }
-#Cmt input p{
+#Comment input p{
     padding: 5px;
 }
 
-.logo{
+.InsertLogo{
     padding-right: 650px;
 }
-#footer{
+#FooterPage{
     background-color: orange;
 }
-#footer fieldset{
+#FooterPage fieldset{
     text-align: center;
     background-color: orange;
 }
-#footer fieldset legend{
+#FooterPage fieldset legend{
     font-style: italic  ;
 }
 iframe{
@@ -96,7 +96,7 @@ iframe{
     display: flex;
     justify-content: center;
 }
-#film{
+#SelectFilm{
     padding: 10px;
     font-size: 20px;
 }

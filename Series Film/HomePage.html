@@ -5,22 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="https://png.pngtree.com/png-clipart/20190516/original/pngtree-movie-icon-which-is-designed-for-all-application-purpose-new-png-image_3751863.jpg" />
+    <link rel="shortcut_icon" href="https://png.pngtree.com/png-clipart/20190516/original/pngtree-movie-icon-which-is-designed-for-all-application-purpose-new-png-image_3751863.jpg" />
     <script src="script.js"></script>
     <title>The series Film</title>
 </head>
-<body id="d">
-    <div class="head">
+<body>
+    <div class="HeadPage">
         <button onclick="chuyen()">Đăng nhập</button>
-        <a href="#Series">Tới phần tóm tắt phim</a>
-        <a href="#Cmt">Đóng góp ý kiến</a>
+        <a href="#IntroSeries">Tới phần tóm tắt phim</a>
+        <a href="#Comment">Đóng góp ý kiến</a>
        <input type="search" placeholder="Tìm kiếm">
     </div>
-    <div class="Intro">
+    <div class="IntroFilm">
         <h1>The series film of <br></h1>
         <form action="/action_page.php">
-            <label for="film"></label>
-            <select name="film" id="film">
+            <label for="SelectFilm"></label>
+            <select name="SelectFilm" id="SelectFilm">
               <option value="Harry_Potter">Harry Potter</option>
               <option value="saab">Saab</option>
               <option value="opel">Opel</option>
@@ -32,7 +32,7 @@
         <p>Câu chuyện mở ra với bữa tiệc mừng của một thế giới phù thủy mà nhiều năm nay đã bị khủng hoảng bởi Chúa tể Hắc ám Voldemort. Đêm trước đó, Voldemort đã tìm thấy nơi sinh sống của gia đình Potter tại thung lũng Godric và giết chết Lily cũng như James Potter vì một lời tiên tri dự đoán sẽ ảnh hưởng đến Voldemort rằng hắn sẽ bị đánh bại bởi "đứa trẻ sinh ra khi tháng bảy tàn đi" mà Voldemort tin đứa trẻ là Harry Potter. Tuy vậy, khi hắn định giết Harry, Lời nguyền Chết chóc Avada Kedavra đã bật lại, Voldemort bị tiêu diệt, chỉ còn là một linh hồn, không sống mà cũng chẳng chết. Trong lúc đó, Harry bị lưu lại một vết sẹo hình tia chớp đặc biệt trên trán mình, dấu hiệu bên ngoài duy nhất từ lời nguyền. Cậu là người sống sót duy nhất khi trúng phải lời nguyền này, và việc đánh bại Voldemort đầy bí ẩn đó đã được cộng đồng phù thủy phong cho cậu danh hiệu "Đứa bé sống sót", "Đứa bé vẫn sống"<a href="https://vi.wikipedia.org/wiki/Harry_Potter#Ngu%E1%BB%93n_g%E1%BB%91c_v%C3%A0_l%E1%BB%8Bch_s%E1%BB%AD_ph%C3%A1t_h%C3%A0nh">...</a></p>
     </div>
     <h1>Giới thiệu nhân vật</h1>
-    <div class="Char">
+    <div class="IntroChar">
         <div>
             <a href="https://upload.wikimedia.org/wikipedia/vi/a/a7/HarryPotter5.jpg">  <img src="https://upload.wikimedia.org/wikipedia/vi/a/a7/HarryPotter5.jpg" alt="" height="200" width="150"></a>
             <p>Giới tính: Nam</p>
@@ -63,8 +63,7 @@
             <p>Nơi sinh: Trại trẻ mồ côi</p>
             <a href="https://vi.wikipedia.org/wiki/Ch%C3%BAa_t%E1%BB%83_Voldemort">Xem thêm...</a>
         </div>
-        <div>
-            
+        <div>   
             <a href="https://upload.wikimedia.org/wikipedia/vi/d/d8/AlbusDumbledore2.jpg"><img src="https://upload.wikimedia.org/wikipedia/vi/d/d8/AlbusDumbledore2.jpg" alt="" height="200" width="150"></a>
             <p>Giới tính: ???</p>
             <p>Ngày sinh: ???</p>
@@ -74,7 +73,7 @@
         <a href="https://harrypotter.fandom.com/vi/wiki/Th%E1%BB%83_lo%E1%BA%A1i:Nh%C3%A2n_v%E1%BA%ADt" style=" text-align: center ;">Xem thêm</a>
     </div>
     <h1>Tóm tắt phim</h1>
-    <div class="Series" id="Series">
+    <div class="IntroSeries" id="IntroSeries">
         <div>
             <div>
                 <h3>Phần 1: Harry Potter và Hòn đá Phù thủy</h3>
@@ -84,7 +83,6 @@
             <div class="frame">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/VyHV0BRtdxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            
         </div>
         <div>
             <div>
@@ -180,7 +178,7 @@ Sau đám tang Hiệu trưởng Albus Dumbledore, Harry, Ron và Hermione chuầ
         </div>
         <hr>
     </div>
-    <div id="Cmt" >
+    <div id="Comment" >
         <div style="text-align: left;" class="form">
            <form action="3.js" method="POST">
             <h3>Góp ý kiến:</h3>
@@ -193,7 +191,7 @@ Sau đám tang Hiệu trưởng Albus Dumbledore, Harry, Ron và Hermione chuầ
             <input type="submit" value="Submit" style="border-radius: 5px;">
            </form>
         </div>
-        <div class="logo">
+        <div class="InsertLogo">
             <div style="display: block;">
             <a href="https://i.pinimg.com/564x/54/69/ea/5469eac276a4b0f1e5660327cf536c24.jpg"><img src="https://i.pinimg.com/564x/54/69/ea/5469eac276a4b0f1e5660327cf536c24.jpg" alt=""height="100px" width="100"></a>
             <a href="https://i.pinimg.com/564x/e2/5b/da/e25bda5bbc53ec7b86e8a2278fd510de.jpg"><img src="https://i.pinimg.com/564x/e2/5b/da/e25bda5bbc53ec7b86e8a2278fd510de.jpg" alt=""height="100px" width="100"></a>
@@ -204,7 +202,7 @@ Sau đám tang Hiệu trưởng Albus Dumbledore, Harry, Ron và Hermione chuầ
             </div>
         </div>
     </div>
-    <div id="footer">
+    <div id="FooterPage">
         <fieldset>
             <legend>Contact Me</legend>
             <address>
