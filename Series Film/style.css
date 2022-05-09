@@ -143,6 +143,7 @@ main{
 }
 .modal-content{
     background-color: #fefefe;
+    /* display and box model */
     margin: 5% auto 15% auto;
     border: 1px solid #888;
     width: 80%;
@@ -153,6 +154,7 @@ main{
     padding: 16px;
 }
 .container input[type="text"]{
+/* display and box model */
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -200,6 +202,7 @@ main{
   }
   .cancelbtn{
       background-color: red;
+      /* box model */
       padding: 8px;
       border: 1px solid ;
       border-radius: 1px;
