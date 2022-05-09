@@ -1,6 +1,6 @@
-function chuyen(){
+function LoginUser(){
     location.replace("login.html");
 };
-function back(){
+function Exit(){
     location.replace("HomePage.html");
 }

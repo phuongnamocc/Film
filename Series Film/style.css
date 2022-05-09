@@ -17,7 +17,18 @@
     color: black;
     background-color: orange;
 }
-
+.HeadPage button {
+    border: none;
+    background-color: orange;
+}
+.HeadPage button:hover,:focus{
+    text-decoration-color: blue;
+    text-decoration-line: underline;
+    color: red;
+}
+.HeadPage input{
+    border: none;
+}
 .IntroFilm{
     text-align: center;
 }
@@ -51,6 +62,7 @@ a:hover,
 a:focus{
     text-decoration-color: blue;
     text-decoration-line: underline;
+    color: red;
 }
 
 img{
@@ -64,6 +76,7 @@ img{
 }
 #Comment input{
     padding: 5px;
+    border: none;
 }
 #Comment input[type="submit"]:focus,
 #Comment input[type="submit"]:hover
@@ -101,3 +114,108 @@ iframe{
     font-size: 20px;
 }
 
+header{
+    min-height: 70px;
+    background-color: gray;
+}
+footer{
+    min-height: 70px;
+    background-color: gray;
+}
+main{
+    height:623px;
+}
+.imgcontainer{
+    text-align: center;
+    position: relative;
+}
+.imgcontainer img {
+    padding-top: 10px;
+}
+.close{
+    position: absolute;
+    right: 25px;
+}
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+.modal-content{
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+.container{
+    
+    align-items: center;
+    padding: 16px;
+}
+.container input[type="text"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.container input[type="password"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.container button{
+    width: 100%;
+    padding: 8px;
+    background-color: chartreuse;
+    border: 1px solid ;
+    border-radius: 1px;    
+    color: white;
+}
+.container button:hover,
+.container button:focus{
+    cursor: pointer;
+
+}
+.bot{
+    padding: 16px;
+}
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  .cancelbtn{
+      background-color: red;
+      padding: 8px;
+      border: 1px solid ;
+      border-radius: 1px;
+  }
+.cancelbtn:hover,
+.cancelbtn:focus
+{
+      cursor: pointer;
+}
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
